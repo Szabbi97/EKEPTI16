@@ -1,0 +1,59 @@
+Ajánlott olvasmámny:
+-Robert C. Martin - Tiszta kód
+-Robert C. Martin - Túlélőkönyv programozóknak
+-Robert C. Martin - PPP könyv
+-GOF (Gang Of Four) - Design Patterns
+-GOF - Head First Design Pattern
+
+Unit teszt:
+-rögzíti a bemenatet
+-rögzíti az elvárt kimenetet
+-meghívja a metódust a rögzített bemenettel és így kap egy aktuális kimenetet
+-a unit teszt sikeres, ha az elvár és az aktuális kimenet megegyezeik.
+-minden változás után le kell futtatni a regressziós tesztet -> lefuttatom az összes unit tesztet
+
+
+P         P                 P
+Practices Principles Dezign Patterns
+
+//Mohó, szálbiztos Singleton
+//Greedy threadsafe Singleton
+
+class Singleton
+{
+  private Singleton(){}
+  public static Singleton getInstance()
+  {
+    return instance;
+  }
+  private static Singleton instance = new Singleton();
+}
+
+//Lusta, nem szálbiztos Singleton
+//Lazy not threadsafe Singleton
+
+class Singleton
+{
+  private Singleton(){}
+  public static Singleton getInstance()
+  {
+    return instance;
+  }
+  private static Singleton instance;
+}
+
+LAZY - Csak akkor csinálom meg, ha nagyon muszáj.
+GREEDY - Azonnal megcsinálja amint lehetősége van.
+
+
+ISMÉTLÉS
+
+Az OOP-nek 3 azaz 4 alapelve van.
+A három alapelv:
+-Egységbe zárás (Encapsulation)
+-Öröklődés (Inharitance)
+-Többalakúság (Polymorphism)
+
+Öröklődés
+A gyermekösztály az ősosztály minden változóját és metódusát megörökli.
+A gyermekosztály megörökli az ősosztály felületét és megvalósítását, ugyanakkor nincs garancia arra, hogy viselkedésében megfelel az ősosztálynak.
