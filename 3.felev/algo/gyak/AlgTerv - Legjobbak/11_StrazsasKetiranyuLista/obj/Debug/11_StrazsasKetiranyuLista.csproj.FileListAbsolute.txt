@@ -1,0 +1,6 @@
+D:\Troll\AlgTerv - Legjobbak\11_StrazsasKetiranyuLista\bin\Debug\11_StrazsasKetiranyuLista.exe.config
+D:\Troll\AlgTerv - Legjobbak\11_StrazsasKetiranyuLista\obj\Debug\11_StrazsasKetiranyuLista.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\11_StrazsasKetiranyuLista\bin\Debug\11_StrazsasKetiranyuLista.exe
+D:\Troll\AlgTerv - Legjobbak\11_StrazsasKetiranyuLista\bin\Debug\11_StrazsasKetiranyuLista.pdb
+D:\Troll\AlgTerv - Legjobbak\11_StrazsasKetiranyuLista\obj\Debug\11_StrazsasKetiranyuLista.exe
+D:\Troll\AlgTerv - Legjobbak\11_StrazsasKetiranyuLista\obj\Debug\11_StrazsasKetiranyuLista.pdb

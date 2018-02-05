@@ -1,0 +1,6 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\03_Hatvany\bin\Debug\03_Hatvany.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\03_Hatvany\bin\Debug\03_Hatvany.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\03_Hatvany\bin\Debug\03_Hatvany.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\03_Hatvany\obj\Debug\03_Hatvany.csprojResolveAssemblyReference.cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\03_Hatvany\obj\Debug\03_Hatvany.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\03_Hatvany\obj\Debug\03_Hatvany.pdb

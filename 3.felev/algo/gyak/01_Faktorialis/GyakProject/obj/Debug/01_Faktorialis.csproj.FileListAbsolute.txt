@@ -1,0 +1,6 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\GyakProject\obj\Debug\01_Faktorialis.csprojResolveAssemblyReference.cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\GyakProject\bin\Debug\GyakProject.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\GyakProject\bin\Debug\GyakProject.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\GyakProject\bin\Debug\GyakProject.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\GyakProject\obj\Debug\GyakProject.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\GyakProject\obj\Debug\GyakProject.pdb

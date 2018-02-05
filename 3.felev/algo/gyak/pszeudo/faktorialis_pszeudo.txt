@@ -1,0 +1,27 @@
+Függvény F(N:egész):egész;
+VÁLTOZÓK
+ALGORITMUS
+	Ha (N=1) AKKOR
+		F<-1;
+	KÜLÖNBEN
+		F <- N * F(N-1);
+	HA_Vége;
+FÜGGVÉNY_Vége;
+
+Függvény Faktoriális(N: egész):egész;
+Változók
+	F: egész;
+	I: egész;
+Algoritmus
+	Ha (N = 1) Akkor
+		Faktorialis <-1;
+	Különben
+		F=1;
+		I=2;
+		Ciklus_Amíg(I<N)
+			F=F*(I);
+			I<-I+1;
+		Viklus_vége;
+		Faktoriális<-F;
+	Ha_Vége;
+FÜGGVÉNY vége;

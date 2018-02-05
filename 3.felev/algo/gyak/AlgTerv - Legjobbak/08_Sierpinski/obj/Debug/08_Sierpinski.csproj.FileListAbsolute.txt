@@ -1,0 +1,9 @@
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\bin\Debug\08_Sierpinski.exe.config
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\bin\Debug\08_Sierpinski.exe
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\bin\Debug\08_Sierpinski.pdb
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\obj\Debug\08_Sierpinski.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\obj\Debug\_08_Sierpinski.Form1.resources
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\obj\Debug\_08_Sierpinski.Properties.Resources.resources
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\obj\Debug\08_Sierpinski.csproj.GenerateResource.Cache
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\obj\Debug\08_Sierpinski.exe
+D:\Troll\AlgTerv - Legjobbak\08_Sierpinski\obj\Debug\08_Sierpinski.pdb

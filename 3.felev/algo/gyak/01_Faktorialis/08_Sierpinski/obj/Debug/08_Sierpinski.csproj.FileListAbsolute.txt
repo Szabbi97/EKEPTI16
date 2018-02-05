@@ -1,0 +1,8 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\bin\Debug\08_Sierpinski.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\bin\Debug\08_Sierpinski.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\bin\Debug\08_Sierpinski.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\obj\Debug\_08_Sierpinski.Form1.resources
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\obj\Debug\_08_Sierpinski.Properties.Resources.resources
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\obj\Debug\08_Sierpinski.csproj.GenerateResource.Cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\obj\Debug\08_Sierpinski.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\08_Sierpinski\obj\Debug\08_Sierpinski.pdb

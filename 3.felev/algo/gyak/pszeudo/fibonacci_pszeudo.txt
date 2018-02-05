@@ -1,0 +1,27 @@
+FÜGGVÉNY Fibonacci(N: egész): egész;
+	VÁLTOZÓK
+	ALGORITMUS
+		Ha (N = 1 VAGY N = 2) AKKOR
+			Fibonacci <- 1;
+		KÜLÖNBEN
+			F1 <- 1;
+			F2 <- 1;
+			I <- 1;
+			CIKLUS_Amíg(I < N - 2)
+				F2 <- F1 + F2;
+				F1 <- F2 - F1;
+				I++;
+			CIKLUS_Vége;
+			Fibonacci <- F1 + F2;
+		HA_Vége;
+FÜGGVÉNY_Vége;
+
+FÜGGVÉNY F(N:egész):egész;
+	VÁLTOZÓK
+	ALGORITMUS
+	Ha (N = 1 VAGY N = 2) AKKOR
+			Fibonacci <- 1;
+		KÜLÖNBEN
+			F <- F(N - 1) + F(N - 2);
+	HA_Vége;
+FÜGGVÉNY_Vége

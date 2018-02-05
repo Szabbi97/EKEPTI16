@@ -1,0 +1,6 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\06_Helyettes\bin\Debug\06_Helyettes.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\06_Helyettes\bin\Debug\06_Helyettes.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\06_Helyettes\bin\Debug\06_Helyettes.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\06_Helyettes\obj\Debug\06_Helyettes.csprojResolveAssemblyReference.cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\06_Helyettes\obj\Debug\06_Helyettes.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\06_Helyettes\obj\Debug\06_Helyettes.pdb

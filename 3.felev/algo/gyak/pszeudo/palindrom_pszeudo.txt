@@ -1,0 +1,35 @@
+FÜGGVÉNY Pal(S: szöveg):logikai;
+	VÁLTOZÓK
+		I: egész;
+	ALGORITMUS
+		HA (S.hossz = 0 VAGY S.hossz = 1)
+			Pal <- IGAZ;
+		KÜLÖNBEN
+			I <- 1;
+			CIKLUS_Amíg(S[I] = S[S.hossz-I])
+				I <- I + 1;
+				HA(I >= S.hossz-1) AKKOR
+					Pal <- IGAZ;
+				Ha_Vége;
+			CIKLUS_Vége;
+			Pal <- HAMIS;
+		Ha_Vége;
+	ALGORITMUS_Vége;
+FÜGGVÉNY_Vége;
+
+FÜGGVÉNY PalRek(S: szöveg):logikai;
+	VÁLTOZÓK
+		I: egész;
+	ALGORITMUS
+		HA (S.hossz <= 1)
+			Pal <- IGAZ;
+		KÜLÖNBEN
+			HA (S[1] != S[S.Hossz]) AKKOR
+				PalRek <- HAMIS;
+			KÜLÖNBEN
+				S.Torol(1);
+				S.Torol(S.Hossz);
+				PalRek <- PalRek(S);
+		Ha_Vége;
+	ALGORITMUS_Vége;
+FÜGGVÉNY_Vége;

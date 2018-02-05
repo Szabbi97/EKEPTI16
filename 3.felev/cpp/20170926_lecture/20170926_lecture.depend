@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506414347 source:c:\users\berényi szabolcs\documents\sulicucc\3.felev\cpp\20170926_lecture\main.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+

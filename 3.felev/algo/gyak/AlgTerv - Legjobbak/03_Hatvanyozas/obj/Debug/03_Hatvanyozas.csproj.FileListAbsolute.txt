@@ -1,0 +1,6 @@
+D:\Troll\AlgTerv - Legjobbak\03_Hatvanyozas\bin\Debug\03_Hatvanyozas.exe.config
+D:\Troll\AlgTerv - Legjobbak\03_Hatvanyozas\bin\Debug\03_Hatvanyozas.exe
+D:\Troll\AlgTerv - Legjobbak\03_Hatvanyozas\bin\Debug\03_Hatvanyozas.pdb
+D:\Troll\AlgTerv - Legjobbak\03_Hatvanyozas\obj\Debug\03_Hatvanyozas.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\03_Hatvanyozas\obj\Debug\03_Hatvanyozas.exe
+D:\Troll\AlgTerv - Legjobbak\03_Hatvanyozas\obj\Debug\03_Hatvanyozas.pdb

@@ -1,0 +1,9 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\bin\Debug\07_CantorSet.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\bin\Debug\07_CantorSet.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\bin\Debug\07_CantorSet.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\obj\Debug\07_CantorSet.csprojResolveAssemblyReference.cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\obj\Debug\_07_CantorSet.Form1.resources
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\obj\Debug\_07_CantorSet.Properties.Resources.resources
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\obj\Debug\07_CantorSet.csproj.GenerateResource.Cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\obj\Debug\07_CantorSet.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\07_CantorSet\obj\Debug\07_CantorSet.pdb

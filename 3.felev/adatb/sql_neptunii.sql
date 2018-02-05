@@ -1,0 +1,4 @@
+CREATE TABLE Munkakorok ( id INT NOT NULL, nev VARCHAR(250) NOT NULL, CONSTRAINT PK_Munkakorok PRIMARY KEY (id));
+CREATE TABLE Oktatok ( neptun CHAR(8) UNIQUE NOT NULL, nev VARCHAR(250) NOT NULL, taj CHAR(9) UNIQUE NOT NULL, adoszam CHAR(10) UNIQUE NOT NULL, email VARCHAR(50) NOT NULL, CONSTRAINT PK_Oktatok PRIMARY KEY (neptun));
+CREATE TABLE Oktatok_Munkakorok (oktato CHAR(6) NOT NULL, munkakor INT NOT NULL, kezdete DATE NOT NULL, vege DATE, CONSTRAINT PK_Oktatok_Munkakorok PRIMARY KEY(oktato,kezdete));
+CREATE TABLE Vezetok ( oktato CHAR(6) NOT NULL, szervezetiEgyseg INT NOT NULL, kezdete DATE, vege DATE, CONSTRAINT PK_Vezetok PRIMARY KEY (oktato,kezdete));

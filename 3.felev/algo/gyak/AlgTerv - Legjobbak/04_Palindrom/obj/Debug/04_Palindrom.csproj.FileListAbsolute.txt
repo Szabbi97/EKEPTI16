@@ -1,0 +1,6 @@
+D:\Troll\AlgTerv - Legjobbak\04_Palindrom\bin\Debug\04_Palindrom.exe.config
+D:\Troll\AlgTerv - Legjobbak\04_Palindrom\bin\Debug\04_Palindrom.exe
+D:\Troll\AlgTerv - Legjobbak\04_Palindrom\bin\Debug\04_Palindrom.pdb
+D:\Troll\AlgTerv - Legjobbak\04_Palindrom\obj\Debug\04_Palindrom.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\04_Palindrom\obj\Debug\04_Palindrom.exe
+D:\Troll\AlgTerv - Legjobbak\04_Palindrom\obj\Debug\04_Palindrom.pdb

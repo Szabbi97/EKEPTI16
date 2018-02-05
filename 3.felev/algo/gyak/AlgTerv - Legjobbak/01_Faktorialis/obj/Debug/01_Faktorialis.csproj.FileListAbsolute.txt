@@ -1,0 +1,6 @@
+D:\Troll\AlgTerv - Legjobbak\01_Faktorialis\bin\Debug\01_Faktorialis.exe.config
+D:\Troll\AlgTerv - Legjobbak\01_Faktorialis\bin\Debug\01_Faktorialis.exe
+D:\Troll\AlgTerv - Legjobbak\01_Faktorialis\bin\Debug\01_Faktorialis.pdb
+D:\Troll\AlgTerv - Legjobbak\01_Faktorialis\obj\Debug\01_Faktorialis.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\01_Faktorialis\obj\Debug\01_Faktorialis.exe
+D:\Troll\AlgTerv - Legjobbak\01_Faktorialis\obj\Debug\01_Faktorialis.pdb

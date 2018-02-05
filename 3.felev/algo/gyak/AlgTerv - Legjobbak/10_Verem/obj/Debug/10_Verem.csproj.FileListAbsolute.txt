@@ -1,0 +1,8 @@
+D:\Troll\AlgTerv - Legjobbak\10_Verem\bin\Debug\10_Verem.exe.config
+D:\Troll\AlgTerv - Legjobbak\10_Verem\bin\Debug\10_Verem.exe
+D:\Troll\AlgTerv - Legjobbak\10_Verem\bin\Debug\10_Verem.pdb
+D:\Troll\AlgTerv - Legjobbak\10_Verem\bin\Debug\09_LancoltLista.exe
+D:\Troll\AlgTerv - Legjobbak\10_Verem\bin\Debug\09_LancoltLista.pdb
+D:\Troll\AlgTerv - Legjobbak\10_Verem\obj\Debug\10_Verem.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\10_Verem\obj\Debug\10_Verem.exe
+D:\Troll\AlgTerv - Legjobbak\10_Verem\obj\Debug\10_Verem.pdb

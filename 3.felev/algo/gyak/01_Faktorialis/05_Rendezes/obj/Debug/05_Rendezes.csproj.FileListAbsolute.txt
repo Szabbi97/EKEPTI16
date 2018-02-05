@@ -1,0 +1,6 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\05_Rendezes\bin\Debug\05_Rendezes.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\05_Rendezes\bin\Debug\05_Rendezes.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\05_Rendezes\bin\Debug\05_Rendezes.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\05_Rendezes\obj\Debug\05_Rendezes.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\05_Rendezes\obj\Debug\05_Rendezes.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\05_Rendezes\obj\Debug\05_Rendezes.csprojResolveAssemblyReference.cache

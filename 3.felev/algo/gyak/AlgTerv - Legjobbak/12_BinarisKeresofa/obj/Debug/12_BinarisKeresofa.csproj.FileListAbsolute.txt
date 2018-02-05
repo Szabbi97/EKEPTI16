@@ -1,0 +1,12 @@
+D:\Troll\AlgTerv - Legjobbak\12_BinarisKeresofa\bin\Debug\12_BinarisKeresofa.exe.config
+D:\Troll\AlgTerv - Legjobbak\12_BinarisKeresofa\bin\Debug\12_BinarisKeresofa.exe
+D:\Troll\AlgTerv - Legjobbak\12_BinarisKeresofa\bin\Debug\12_BinarisKeresofa.pdb
+D:\Troll\AlgTerv - Legjobbak\12_BinarisKeresofa\obj\Debug\12_BinarisKeresofa.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\12_BinarisKeresofa\obj\Debug\12_BinarisKeresofa.exe
+D:\Troll\AlgTerv - Legjobbak\12_BinarisKeresofa\obj\Debug\12_BinarisKeresofa.pdb
+d:\!MENTVE\Sulicucc\3.felev\algo\gyak\AlgTerv - Legjobbak\12_BinarisKeresofa\bin\Debug\12_BinarisKeresofa.exe.config
+d:\!MENTVE\Sulicucc\3.felev\algo\gyak\AlgTerv - Legjobbak\12_BinarisKeresofa\bin\Debug\12_BinarisKeresofa.exe
+d:\!MENTVE\Sulicucc\3.felev\algo\gyak\AlgTerv - Legjobbak\12_BinarisKeresofa\bin\Debug\12_BinarisKeresofa.pdb
+d:\!MENTVE\Sulicucc\3.felev\algo\gyak\AlgTerv - Legjobbak\12_BinarisKeresofa\obj\Debug\12_BinarisKeresofa.csprojResolveAssemblyReference.cache
+d:\!MENTVE\Sulicucc\3.felev\algo\gyak\AlgTerv - Legjobbak\12_BinarisKeresofa\obj\Debug\12_BinarisKeresofa.exe
+d:\!MENTVE\Sulicucc\3.felev\algo\gyak\AlgTerv - Legjobbak\12_BinarisKeresofa\obj\Debug\12_BinarisKeresofa.pdb

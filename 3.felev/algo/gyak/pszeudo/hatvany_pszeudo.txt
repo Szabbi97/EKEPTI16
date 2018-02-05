@@ -1,0 +1,36 @@
+FÜGGVÉNY Hatv(A: valós, N: egész): valós;
+	VÁLTOZÓK
+		E: valós;
+		I: egész;
+	ALGORITMUS
+		HA (N = 0) AKKOR
+			Hatv <- 1;
+		KÜLÖNBEN
+			HA (N = 1) AKKOR
+				Hatv <- A;
+			KÜLÖNBEN
+				E <- A;
+				I <- 1;
+				CIKLUS_Amíg (I <= ABS(N))		
+FÜGGVÉNY_Vége;
+
+FÜGGVÉNY HatvRekurzív(A: valós, N: egész): valós;
+	VÁLTOZÓK
+		E: valós;
+		I: egész;
+	ALGORITMUS
+		HA (N = 0) AKKOR
+			HatvRekurzív <- 1;
+		KÜLÖNBEN
+			HA (N = 1) AKKOR
+				HatvRekurzív <- A;
+			KÜLÖNBEN
+				HA ( N > 1)
+					HatvRekurzív <- A * HatvRekurzív(A, N-1);
+				KÜLÖNBEN
+					HatvRekurzív < 1 / HatvRekurzív(A, -N);
+				Ha_Vége;
+			Ha_Vége;
+		Ha_Vége;
+	ALGORITMUS_Vége;
+FÜGGVÉNY_Vége;

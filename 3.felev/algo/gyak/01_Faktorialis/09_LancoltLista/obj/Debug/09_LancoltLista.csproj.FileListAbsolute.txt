@@ -1,0 +1,6 @@
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\09_LancoltLista\obj\Debug\09_LancoltLista.csprojResolveAssemblyReference.cache
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\09_LancoltLista\bin\Debug\09_LancoltLista.exe.config
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\09_LancoltLista\bin\Debug\09_LancoltLista.exe
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\09_LancoltLista\bin\Debug\09_LancoltLista.pdb
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\09_LancoltLista\obj\Debug\09_LancoltLista.exe
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\09_LancoltLista\obj\Debug\09_LancoltLista.pdb

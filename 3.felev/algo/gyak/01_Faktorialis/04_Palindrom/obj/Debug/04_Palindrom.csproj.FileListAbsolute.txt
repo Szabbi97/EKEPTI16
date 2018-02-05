@@ -1,0 +1,6 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\04_Palindrom\obj\Debug\04_Palindrom.csprojResolveAssemblyReference.cache
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\04_Palindrom\bin\Debug\04_Palindrom.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\04_Palindrom\bin\Debug\04_Palindrom.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\04_Palindrom\bin\Debug\04_Palindrom.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\04_Palindrom\obj\Debug\04_Palindrom.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\04_Palindrom\obj\Debug\04_Palindrom.pdb

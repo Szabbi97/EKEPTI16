@@ -1,0 +1,6 @@
+D:\Troll\AlgTerv - Legjobbak\05_Rendezes\bin\Debug\05_Rendezes.exe.config
+D:\Troll\AlgTerv - Legjobbak\05_Rendezes\bin\Debug\05_Rendezes.exe
+D:\Troll\AlgTerv - Legjobbak\05_Rendezes\bin\Debug\05_Rendezes.pdb
+D:\Troll\AlgTerv - Legjobbak\05_Rendezes\obj\Debug\05_Rendezes.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\05_Rendezes\obj\Debug\05_Rendezes.exe
+D:\Troll\AlgTerv - Legjobbak\05_Rendezes\obj\Debug\05_Rendezes.pdb

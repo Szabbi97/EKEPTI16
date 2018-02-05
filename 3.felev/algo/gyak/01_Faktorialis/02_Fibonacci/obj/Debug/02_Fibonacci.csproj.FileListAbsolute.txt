@@ -1,0 +1,5 @@
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\02_Fibonacci\bin\Debug\02_Fibonacci.exe.config
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\02_Fibonacci\bin\Debug\02_Fibonacci.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\02_Fibonacci\bin\Debug\02_Fibonacci.pdb
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\02_Fibonacci\obj\Debug\02_Fibonacci.exe
+C:\Users\Berényi Szabolcs\Documents\Sulicucc\3.felev\algo\gyak\01_Faktorialis\02_Fibonacci\obj\Debug\02_Fibonacci.pdb

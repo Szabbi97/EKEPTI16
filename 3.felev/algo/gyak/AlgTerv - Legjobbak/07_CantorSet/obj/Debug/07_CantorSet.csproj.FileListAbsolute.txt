@@ -1,0 +1,9 @@
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\bin\Debug\07_CantorSet.exe.config
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\bin\Debug\07_CantorSet.exe
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\bin\Debug\07_CantorSet.pdb
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\obj\Debug\07_CantorSet.csprojResolveAssemblyReference.cache
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\obj\Debug\_07_CantorSet.Form1.resources
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\obj\Debug\_07_CantorSet.Properties.Resources.resources
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\obj\Debug\07_CantorSet.csproj.GenerateResource.Cache
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\obj\Debug\07_CantorSet.exe
+D:\Troll\AlgTerv - Legjobbak\07_CantorSet\obj\Debug\07_CantorSet.pdb

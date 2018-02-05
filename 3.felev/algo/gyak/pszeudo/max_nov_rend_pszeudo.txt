@@ -1,0 +1,12 @@
+ELJÁRÁS RendezMaxNov(A: sorozat);
+	VÁLTOZÓK
+		Max: elemtípus;
+	ALGORITMUS
+		HA (A.Hossz <> 1) AKKOR
+			Max = MAX(A);
+			A.TOROL(Max);
+			RendezMaxNov(A);
+			A[N] = Max;
+		HA_Vége;
+	ALGORITMUS_Vége;
+ELJÁRÁS_Vége;

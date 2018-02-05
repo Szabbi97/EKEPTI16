@@ -1,0 +1,5 @@
+D:\Troll\AlgTerv - Legjobbak\02_Fibonacci\bin\Debug\02_Fibonacci.exe.config
+D:\Troll\AlgTerv - Legjobbak\02_Fibonacci\bin\Debug\02_Fibonacci.exe
+D:\Troll\AlgTerv - Legjobbak\02_Fibonacci\bin\Debug\02_Fibonacci.pdb
+D:\Troll\AlgTerv - Legjobbak\02_Fibonacci\obj\Debug\02_Fibonacci.exe
+D:\Troll\AlgTerv - Legjobbak\02_Fibonacci\obj\Debug\02_Fibonacci.pdb

@@ -1,0 +1,9 @@
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\obj\Debug\10_Verem.csprojResolveAssemblyReference.cache
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\bin\Debug\10_Verem.exe.config
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\bin\Debug\10_Verem.exe
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\bin\Debug\10_Verem.pdb
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\bin\Debug\09_LancoltLista.exe
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\bin\Debug\09_LancoltLista.pdb
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\bin\Debug\09_LancoltLista.exe.config
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\obj\Debug\10_Verem.exe
+D:\!MENTVE\Sulicucc\3.felev\algo\gyak\01_Faktorialis\10_Verem\obj\Debug\10_Verem.pdb
