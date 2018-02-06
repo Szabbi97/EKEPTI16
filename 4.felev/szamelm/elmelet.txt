@@ -1,0 +1,81 @@
+Számításelmélet EA
+
+Jegyzet: https://elearning.uni-eszterhazy.hu/course/view.php?id=410
+
+Algoritmusok bonyolultsága
+
+Bonyolultság elmélet (Complexity Theory)
+- Algoritmusok bonyolultsága
+  - időbonyolultság -> elemi lépések száma
+  - tárbonyolultság -> memóriaigény
+
+- Minden lehetséges inputra?
+  - És, ha végtelen input létezik?
+
+- Legrosszabb esetre
+  - "Worst-case complexity"
+  - Melyik a legrosszabb lehetőség az algoritmusnak?
+
+Keresési algoritmusok időbonyolultsága
+
+- Pl. lineáris keresés, bináris Keresési
+- Legrosszabb esetben hány elemi lépés?
+- Elemi lépés = összehasonlítás
+
+
+- n adatelemre = n hosszúságú inputra
+
+- Lineáris keresés:
+  - legrosszabb esetben: n összehasonlítás
+  - időbonyolultság: O(n) összehasonlítás
+
+- Bináris keresés:
+  - legrosszabb esetben: [logˇ2(n+1)]
+  - időbonyolultság: O(logˇ2(n))
+
+Bonyolultsági függvények
+
+- Logaritmikus: O(logˇc(n))
+- Lineáris: O(n)
+- Polinomiális: O(n^k)
+  - Négyzetes: O(n^2)
+  - Köbös: O(n^3)
+- Exponenciális: O(c^n)
+- Faktoriális: O(n!)
+- Dupla exponenciális: O(c^(d^n))
+- stb.
+
+Rendezési algoritmusok időbonyolultsága
+
+- Probléma: Rendezzük egy n elemű tömb elemeit (növekvő) sorrendbe!
+
+- Legrosszabb esetben hány lemei lépés?
+
+- Elemi lépések
+  ITT KIMARADT KÉT PONT
+
+Rendezési algoritmusok
+
+Az alábbi algoritmusokat vizsgáljuk
+
+- Buborék rendszés
+  KÓD
+  for (i=n-i; i>0; i--)
+  {
+    for (j=0; j<i; j++)
+    {
+      if(T[j+1] < T[j])
+        swap(T[j+1], T[j]);
+    }
+  }
+
+  Összehasonlítások száma: minden esetben ((n-1)*n)/2
+  Elemcserék száma: legrosszabb esetben ((n-1)*n)/2
+  Összesen: legrosszabb esetben ((n-1)*n)
+  Bonyolultság: O(n^2)
+
+- Beszúrásos Rendezési
+  - lineáris kereséssel
+  - bináris kereséssel
+
+- Összefésüléses rendezés
