@@ -1,0 +1,26 @@
+Fazekas István
+i.fazekas@agria.hu
+
+Numerikus matematika
+
+- kvalitatív
+- kvantitatív
+fizikai, kémiai, műszaki...valós folyamatok vizsgálata
+
+Vizsgálat lépései
+  1. Matematikai modell választás
+  2. Numerikus módszer választás
+  3. Algoritmus -> programozás
+  4. Probléma megoldás
+  5. Eredmény elemzés
+
+Hibaforrások
+  1. A bemenő adatok pontatlanok
+    Korrigálás: növelni kell a mérőeszközök pontosságát
+  2. Nem megfelelő matematikai modell
+    Korrigálás: másik modell
+  3. Csonkolási hiba                                                            \
+    Az algoritmus véges kell, hogy legyen -> végtelen ciklust nem tartalmazhat   | Computational error
+  4. Adatábrázolási hiba                                                         /
+
+Numerikus módsze
