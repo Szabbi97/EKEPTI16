@@ -1,0 +1,19 @@
+1) Explicit                                   \
+  y=f(x)                                      |
+  egy adott görbe pontjai az (x, f(x))        |
+                                              | új változó-> felület
+2) Implicit                                   |
+  F(x,y)=0 (=c, cE R)                         |
+  x^2+y^2-1=0           Cauchy                |
+  x^2+y^2=1                                  /
+
+3) Paraméteres
+  r(t) = (x(t),y(t),z(t))
+
+
+Görbék alapvető tulajdonságai
+1) A görbe érintője
+2) Ívhossz
+3) Görbület
+
+Tekintsük a t1, t2, .., tn paraméterértékek olyan sorozatát, amely t0-hoz konvergál

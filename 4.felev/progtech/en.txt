@@ -1,0 +1,122 @@
+GOF - Design Patterns
+GOF = Gang Of Four
+
+
+Object Oriented Principles
+
+- Encapsulation: Data Structure + Methods -> Class
+- Inheritance: Inheritance should be kept safe. The child class inherits the implementation of the parent class
+- Polymorphism: An object has more types and we can use it as on object of all these types
+
+Object has
+- Innerstate
+- Behaviour
+- Type or Interface
+
+Class has problems
+- Interface
+  - interface
+- Implementation
+- Abstract class
+  - interface
+  - incomplete implementation
+
+class Dog:IMakingNoise
+{
+  bool happy; //It's a field or attribute
+  public void setHappy(bool happy)
+  {
+    this.happy = happy;
+  }
+  public string Bark()
+  {
+    if(happy)
+      return "gav-gav";
+    else
+      return "brrrr";
+  }
+  public string Noise()
+  {
+    return Bark();
+  }
+}
+
+MAIN
+{
+  Dog d1 = new WatcDog();
+  Console.WriteLine(d1.Bark());
+  d1.setHappy(false);
+  Object o1 = d1; // This is allowed because the Object is parent of Dog;
+  Console.WriteLine(d1.Bark());
+}
+
+Interface IMakingNoise
+{
+  string Noise();
+}
+
+
+Innerstate - The actual values of the fields
+Behaviour - The behaviour changes over the time, depends the innerstate. If we change the innerstate the behaviour also changes.
+
+Question: What is the difference between implementation and behaviour?
+Anwser: Implementation and behaviour are both something related to the source code. The implementation is the source code, behaviour is the running source code.
+Both are about the source code.
+
+Type -
+
+UML: Unified Modelling Language
+-Class diagrams
+
+Rectangle = class -> Object <- Dog
+         WatchDog ->        <- Cat
+                            <- <<INTERFACE>> IMakingNoise
+Hierarchy
+Each object gets, each type goes up on the hierarchy of inheritance.
+
+The interface ... the signatures of public classes.
+
+An abstract method has no body.
+An abstract class has interface and some implementation. The implementation might be incomlete.
+
+We can use an interface as a type.
+
+Design patterns
+
+Singleton - Ensure a class only has one instance and provide a global point of access to it.
+
+class MySingleton
+{
+  private MySingleton(){}
+
+  private static MySingleton instance = new MySingleton();
+
+  public static MySingleton GetInstance() //Global access point
+  {
+    return instance;
+  }
+}
+
+class Dog
+{
+  string name;
+  string color;
+  int age;
+  public string getName()
+  {
+    return color;
+  }
+  public string getColor()
+  {
+    return color;
+  }
+  public int getAge()
+  {
+    return age;
+  }
+}
+
+MAIN
+{
+  MySingleton S1 = MySingleton.GetInstance
+}

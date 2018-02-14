@@ -1,0 +1,104 @@
+Adatbázisrendszerek megvalósítása I.
+
+
+1) Hierarchikus
+            [] <- gyökér
+  ___________|___________
+ |           |           |
+ []         []          [] <-levél elemek
+
+ 2) Hálós
+
+[]----[]
+|\   /|
+|  V  |
+|  ^  |
+|/   \|
+[]   []
+
+3) Relációs adatmodell
+
+//Hiányzik az ábra
+
+Tranzakció
+ - Az adatbázis-művelet végrehajtási egysége.
+ - Egy vagy több DML utasítást tartalmaz.
+ - Tulajdonságok
+  A  - Atomosság (Atomicity): mindent vagy semmit elvű végrehajtás.
+  C  - Konzisztencia (Consistency): konzisztens állapotból konzisztens állapotba vezet.
+  I  - Elkülönítés (Isolation): végrehajtásának úgy kell történnie, mintha egy időben csak az aktív tranzakció végrehajtása folyna.
+  D  - Tartósság (Durability): Hatását meg kell őrizze az adatbázis.
+
+Adatbázis-kezelő rendszer alkotórészei
+- Parancsforrások
+  - Adatbázis-adminisztrátor
+    - DDL utasítás
+  - Felhasználó/alkalmazás
+    - DML utasítás
+    - QL utasítás
+
+Memóriahierarchia
+|\ Regiszter
+| \ Gyorsítótás
+|  \ Központi memória
+|   \ Másodlagos tárolók (lemez) Fájlrendszer + virtuális memória
+|____\ Harmadlagos tárolók
+
+Lemezvezérlő
+_____________________________________________________
+Adatsín
+_____________________________________________________
+      ^
+      |
+      ˇ
+  Központi memória
+
+Hibák fajtái
+  1. Hibás adatbevitel
+  2. Készülékhiba
+  3. Katasztrofális hiba
+  4. Rendszerhiba
+
+Hibás adatbevitel
+  - Nehéz felismerni, mivel számos hiba jelentkezhet adatbevitel során.
+    -Formai hibák
+    - Jelentésbeli hibák
+  - Az adatbáziskezelő-rendszerek szoftverelemeket biztosítanak a hibás adatbevitel minimálisra csökkentése érdekében.
+    - Megszorítások
+    - Triggerek (kioldók)
+
+Megszorítások
+  - Olyan előírások, korlátozások, amelyekkel megadhatjuk az adatbázis tartalmára vonatkozó elvárásainkat.
+  - Minden olyan esetben ellenőrzésre kerül, amely eredményként az adatbázis tartalma úgy változhat, hogy az a megszorítást már nem elégítené ki.
+  - Típusai
+    - Oszlopmegszorítás (NOT NULL)
+    - Táblamegszorítás(UIQUE,PRIMARY KEY, FOEREIGN KEY, CHECK)
+
+Triggerek
+- Olyan tevékenységsort definiál, amely automatikusan megy végbe valamilyen előre meghatározott felhasználói vagy rendszeresemény bekövetkezésekor.
+- Egy trigger működését a következő események válthatják ki:
+  - egy táblán vagy nézeten végrehajtott INSERT, DELETE, vagy UPDATE utasítás;
+  - egyes DDL utasítások;
+  - szerverhibák;
+  - felhasználói be és kijelentkezés;
+  - adatbázis elindítása és leállítása;
+
+Triggerek Típusai
+- A triggerek lefutásának száma szerint
+  - sor szintű és
+  - utasítás szintű
+A trigger lefutásának ideje szerint
+  -BEFORE és
+  -AFTER trigger;
+INSTEAD OF trigger
+-Rendszertriggerek
+  -Felhasználói események
+  - Rendszeresemények
+
+Triggerek használati esetei
+
+//HIÁNYZÓ DIA
+
+Készülékhiba
+
+- A lemezegység néhány bites (szektoros) meghibásodásától a lemez teljes olvashatatlanságáig terjedő hibák
