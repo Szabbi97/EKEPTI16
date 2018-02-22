@@ -101,3 +101,33 @@ The relative error of a*b: δa*δb=δa+δb
 The relative error of a/b: δa/δb=δa+δb
 
 In case of more than two numbers r =
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Taylor series
+
+Take an infinitly differentiable function f(x).
+To calculate its value at a given point could we use a polynomial, which is easier to compute?
+
+f2(x)=f(0)+(f'(0)*x)/1+(f''(0)*x^2)/2+(f'''(0)*x^3)/3...
+
+If it exists the second derivative of x=f(x),
+Then based on the second degree Taylor polynomial:
+
+f(a0) = f(a) + f'(a)(a0-a)+f''(ξ)((a-a0)^2)/2!
+a-Δa<ξ<a+Δa
+
+By defining the maximum of f' as M=max|f''(ξ)|
+
+|f(a0)-f(a)|<=|f'(a)|Δa+M(((Δa)^2)/2!)
+
+Then the estimated absolute error of the function value is
+
+Δf(a)=|f'(a)|Δa
+
+Relative error - the error of functions
+
+Δf(a)=|f'(a)|Δa
+
+

@@ -1,0 +1,38 @@
+﻿<Window x:Class="MediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaPlayer"
+        mc:Ignorable="d"
+        Title="Médija Pléjer 1.0" Height="350" Width="525"
+        Loaded="Window_Loaded">
+    <DockPanel x:Name="mainDP">
+        <StackPanel DockPanel.Dock="Top" Height="50">
+            <Menu Height="25">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_Open" Click="OpenVideo"/>
+                    <Separator/>
+                    <MenuItem Header="Close" Click="CloseApp"/>
+                </MenuItem>
+            </Menu>
+            <ToolBarTray Height="25">
+                <ToolBar>
+
+                </ToolBar>
+            </ToolBarTray>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Height="50" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="btnPlay" Content="Play" Click="btnPlay_Click"></Button>
+            <Button x:Name="btnPause" Content="Pause" Click="btnPause_Click"></Button>
+            <Button x:Name="btnStop" Content="Stop" Click="btnStop_Click"></Button>
+            <Button x:Name="btnBrowse" Content="Browse" Click="OpenVideo"></Button>
+            <Slider x:Name="sldVolume" Width="80" VerticalContentAlignment="Center" VerticalAlignment="Center" ValueChanged="sldVolume_ValueChanged"></Slider>
+        </StackPanel>
+        <Border BorderBrush="{StaticResource c1toc2Brush}" BorderThickness="5" CornerRadius="10">
+            <MediaElement x:Name="media" LoadedBehavior="Manual">
+
+            </MediaElement>
+        </Border>
+    </DockPanel>
+</Window>

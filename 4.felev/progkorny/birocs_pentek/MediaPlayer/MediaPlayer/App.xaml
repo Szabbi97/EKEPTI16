@@ -1,0 +1,36 @@
+﻿<Application x:Class="MediaPlayer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MediaPlayer"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <!--Colors-->
+        <Color x:Key="c1" A="255" R="112" G="197" B="230"></Color>
+        <Color x:Key="c2" A="255" R="237" G="27" B="44"></Color>
+        <!--Brushes-->
+        <SolidColorBrush x:Key="c1Brush" Color="{StaticResource c1}"></SolidColorBrush>
+        <SolidColorBrush x:Key="c2Brush" Color="{StaticResource c2}"></SolidColorBrush>
+        <LinearGradientBrush x:Key="c1toc2Brush" StartPoint="0.5,0" EndPoint="0.5,1">
+            <GradientStop Offset="0.2" Color="{StaticResource c1}"/>
+            <GradientStop Offset="0.8" Color="{StaticResource c2}"/>
+        </LinearGradientBrush>
+        <!--Styles-->
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Margin" Value="10 15 10 15"/>
+            <Setter Property="Foreground" Value="{StaticResource c1Brush}"/>
+            <Setter Property="Background" Value="{StaticResource c1toc2Brush}"/>
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="Click">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="FontSize"
+                                             Duration="0:0:1" From="12" To="16"
+                                             AutoReverse="True"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </Application.Resources>
+</Application>
