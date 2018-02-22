@@ -120,3 +120,67 @@ MAIN
 {
   MySingleton S1 = MySingleton.GetInstance
 }
+
+
+Object Oriented Design Principles
+
+1.: GOF One
+	- Program to an interface not an implementation.
+2.: GOF Two
+	- Favour object composition over class inheritance.
+
+	
+Program to an implementation means that you use your knowledge how other classes are implemented to implement a new class.
+If you do so than your code will be short and fast, which seems to be fine.
+
+Our main principle is the source code is always changing, because there are new feature requests, sometimes we find a bug and we eleminate the bug, sometimes we just make the source code claner (refactor the program).
+This is a common fenomena.
+
+The problem is with to program to an implementation that the classes are tightly coupled. 
+
+- Thightly coupled
+- Loosly coupled
+- Layers = Tier
+
+Tightly coupled: If you change the source code of a class, most probably you have to change the source code of other classes which are tightly coupled to this one. 
+
+The most important dependency is implementation dependency. Implementation dependency means that if i change the class I also have to change the dependent classes.
+
+Dependence on specific implementation. Dependence on software or hardware. 
+
+Read book from page 23 - 25. Chapter: Designing for change.
+
+Program to an interface.
+
+Program to an interface is to write your class that you're only knowing the implementation of other classes.
+If you program to an interface you can be sure that you shouldn't change other classes, until you do not hurt the contract of the interface.
+
+Contract of a method consists of precondition and the post condition of a method.
+The precondition describes for what kind of parameters and inner state the method should work properly.
+The postcondition speaks about the return value of the method. and the inner state.
+
+
+using System.Diagnostics;
+class BankAccount
+{
+	double ammount;
+	/// <summary>
+    /// Get money.
+    /// </summary>
+    /// <param name="ammount">The ammount wich is drawn from the account. This ammount shouldn't be greater than your actual money.</param>
+	public bool Invriant()
+	{
+		return ammount >= 0;
+	}
+	public bool DrawMoney(double ammount)
+	{
+		Debug.Assert(this.ammount >= ammount); //PRE
+		this.ammount -= ammount;
+		Debug.Assert(this.ammount >=0); //POST
+	}
+	public
+}
+
+The contract of an interface consist of a method or class invariant.
+
+A class invariant is a property which is true before and after each method call.

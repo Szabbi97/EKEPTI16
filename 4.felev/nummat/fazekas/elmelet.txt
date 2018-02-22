@@ -23,4 +23,81 @@ Hibaforrások
     Az algoritmus véges kell, hogy legyen -> végtelen ciklust nem tartalmazhat   | Computational error
   4. Adatábrázolási hiba                                                         /
 
-Numerikus módsze
+Numerikus módszer
+
+Errors
+
+Absolute estimated error
+
+a The exact value of data.
+a0 The approximate value of data
+Δ=|a-a0| Absolute error
+
+Problem: the exact value of data is usually unknown -> the absolute error cannot be defined in most cases
+
+As a workaround, we use its (estimated) maximum value, the absolute error limit or estimated error.
+
+Any Δa>0 value is where it is true that |a-aq|<=Δa is referred as the absolute error limit of the value if the estimated error.
+
+Relative estimate Errors
+
+The relative error of approximated a value is δ=Δ/|a|, (a!=0)
+
+The value δa is the relative error limit of a , if Δ/|a|<= δa
+
+Notes:
+- The relative error limit is often specified as percent.
+- It is obvious, that the numeric representation (number of digits) is in close correspondence with the relative error limit.
+- The relative error is invariant of the measurement.......
+
+Data representation
+
+The relative error is in relation with data representation.
+
+if δ=10% the displayed value can only have 1 certain digit.
+If δ=1% the displayed value can only have 2 certain digits.
+If δ=0.1% the displayed value can only have 3 certain digits.
+
+Calculated values should be rounded so that it only contains certain digits.
+Thus the absolute error of the number will not exceed half of the last digit.
+
+Absolute error - the effect of basic operators
+
+Addition - worst case scenario
+
+If a and b are accurate values, and a0 and b0 are their corresponding approximate values and |a-a0|<=Δa, |b-b0|<=Δb
+the absolute error limit of a+b: Δ(a+b)=Δa+Δb
+With more than two input parameters, where S=nΣk=1(ak)
+the absolute error limit of the sum Δs=nΣk=1(Δk)
+
+With more than 10 input parameters, where S=nΣk=1(ak)
+the Chebotarev rule gives a more realistic result: Δs=√(3n)*Δk
+
+With more than 10 input parameters, where S=nΣk=1(ak)
+And one of the errors is much greater than the other : Δl>>Δk, and k>1 then Δs~Δl
+
+Substraction
+
+If a and b are accurate values, and a0 and b0 are their corresponding approximate values and |a-a0|<=Δa, |b-b0|<=Δb
+the absolute error limit of a-b: Δ(a-b)=Δa+Δb­
+
+Multiplication and division
+
+If a and b are accurate values, and a0 and b0 are their corresponding approximate values and |a-a0|<=Δa, |b-b0|<=Δb
+the absolute error limit of a*b: Δ(ab)~|a|Δb+|b|Δa
+and the absolute ­error limit of a/b is: Δ(ab)~(|a|Δb+|b|Δa)/|b|^2
+
+Note: if b is small, the error of division will be huge.
+
+Relative error - the effect of basic operators
+
+The relative error of a+b: δa+b=(Δa+Δb)/(|a+b|)
+
+The relative error of a-b: δa-b=(Δa+Δb)/(|a-b|)
+Note: if a and b are close values, the error of division will be huge. Try avoid it with reorganizing the formula.
+
+The relative error of a*b: δa*δb=δa+δb
+
+The relative error of a/b: δa/δb=δa+δb
+
+In case of more than two numbers r =

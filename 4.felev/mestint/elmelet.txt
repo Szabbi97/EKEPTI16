@@ -14,7 +14,7 @@ Unit teszt:
 
 
 P         P                 P
-Practices Principles Dezign Patterns
+Practices Principles Design Patterns
 
 //Mohó, szálbiztos Singleton
 //Greedy threadsafe Singleton
@@ -57,3 +57,97 @@ A három alapelv:
 Öröklődés
 A gyermekösztály az ősosztály minden változóját és metódusát megörökli.
 A gyermekosztály megörökli az ősosztály felületét és megvalósítását, ugyanakkor nincs garancia arra, hogy viselkedésében megfelel az ősosztálynak.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gráfkereső algoritmusok
+
+Nem módosítható
+- Csak operátor módosíthatja az adatbázist
+- Próba-hiba módszer (Trial-and-error)
+- Hegymászó algoritmus
+
+Módosítható
+- Operátorokon kívül van egy metódus ami szintén módosíthatja az adatbázist.
+	- Visszalépéses keresés "backtrack"
+	- kereső fával keresők
+	
+	
+Gráfkereső algoritmusok közös váza
+
+Minden gráfkereső algoritmushoz a következő három kérdést tesszük fel:
+1. Ha van megoldás, megtalálja?
+2. Ha nincs megoldás, felismeri?
+3. Ha talál megoldást, az optimális?
+4. Ha a 3. válasz igen: Milyen értelemben optimális?
+
+- Adatbázis (adatszerkezet, ami a memóriában van)
+
+- Inicializálés: Kezdőállapot megadása, felsorolom a kezdőértékeket
+
+- Ciklus/vezértlő: Ez egy végtelen ciklus, amelyben felépítjük a gráfot.
+	- Pozitív kilépési feltétel, ha megtaláltam a megoldást
+	- Negatív kilépési feltétel, amikor biztos vagyok abban, hogy nem talált megoldást.
+
+- Adatbázis módosítás
+
+
+Nem módosítható gráfkereső algoritmus
+
+Zsákutca: Olyan csúcs, amibe bevezető él van, de kivezető él nincs.
+
+Az adatbázisban csak az aktuális csúcs van.
+
+Két algoritmus:
+	- 
+	
+A heurisztika abban segít, hogy, ha van több alkalmazható operátorom, azaz egy csúcsból több élen is elindulhatok, akkor a heurisztika segít eldönteni, hogy melyiken induljak el.
+Próba-hibánál véletlenszerűen választok, hegymászó algoritmusnál pedig heurisztikával.
+A "Look-a-head" mindegyik alkalmazható operátorról megbecsüli, hogy mennyire közel visz a célhoz és azt választja, amelyik közelebb visz.
+
+A heurisztikától elvárt, hogy gyors legyen.
+
+Próba-hiba módszer
+
+Adatbázis: Az aktuális csúcs
+Inicializálés: Az aktuális csúcs legyen a start csúcs, a start csúcs tartalmazza a kezdőállapotot
+Ciklus: - Kiíratom az aktuális csúcsot.
+		- Az aktuális csúcsra alkalmazok egy alkalmazható operátort azaz az aktuális élen alkalmazható csúcsok közül valamelyiken továbbmegyek,
+			ha több lehetőségem is van, véletlenszerűen választok.
+        - Az így előálló új csúcs legyen az aktuális.
+		- Az aktuális csúcsban van egy állapot, ennek vannak alkalmazható operátorai.
+			Ezek közül választok egyet véletlenszerűen, azt alkalmazom, így létrejön egy új állapot.
+			Ezt az állapotot becsomagolom egy csúcsba, ekkor létrejön egy új csúcs, az utolsó lépés: akt = új csúcs.
+		- Pozitív kilépési felétel: Ha az aktuális csúcs terminális csúcs, akkor meg van a megoldás, a megoldás adódik az eddig kiírt csúcsok sorrendjében.
+		- Negatív kilépési feltétel: Ha az aktuális csúcs zsákutca, akkor nincs megoldás, kiírom, hogy nem találtam megoldást.
+		
+
+1. Ha van megoldás, megtalálja?
+	Minél jobb a heurisztika, annál valószínűbb.
+2. Ha nincs megoldás, felismeri?
+	Nem.
+3. Ha talál megoldást, az optimális?
+	Nem valószínű.
+4. Ha a 3. válasz igen: Milyen értelemben optimális?
+
+Restartos Próba-hiba módszer.
+
+Ha zsákutcába jut, újraindítja a keresést a start csúcsból.
+Az eddig feltárt zsákutcákat kizárjuk a keresési térből.
+A maximális újraindítások számát általában ezernek veszem.
+Addi indítgatok újra, míg megtalálom a megoldást, vagy elérem a maximális újraindítások számát.
+
+1. Ha van megoldás, megtalálja?
+	Tart a végtelenhez, ha a maximális újraindítások száma tart a végtelenhez.
+2. Ha nincs megoldás, felismeri?
+	
+3. Ha talál megoldást, az optimális?
+4. Ha a 3. válasz igen: Milyen értelemben optimális?
+
+Restartos hegymászó algoritmus
+
+Használ heurisztikát, determinisztikussá teszi az algoritmusomat, azaz mindig ugyanarra fog menni.
+Csak úgy tudom használni a resteartot:
+	- Az feltárt zsákutcákat kizárom a keresési térből, azaz, ha már egyszer befutottam egy zsákutcába, mégegyszer nem engedem be a keresést -> törlöm a gráfból az élt. (Random-walk)
+	- A heurisztikába teszek véletlen elemeket, pl: a kiszámolt értéket megszorzom 0,5-1 közötti véletlen számmal. A jó heurisztika olyan, ami az elején jó irányba visz.
+	

@@ -79,3 +79,68 @@ Az alábbi algoritmusokat vizsgáljuk
   - bináris kereséssel
 
 - Összefésüléses rendezés
+
+
+Algoritmus modellek
+
+- Turing-gép
+- Rekurzív függvények - Kleene (1936)
+	- alapfügvgvények + rekurzió
+	- való életben: funkcionális programozási nyelvek (pl. LISP)
+
+- Lambda-kalkulus - Church (1941)
+	- absztrakt függvények és azok alkalmazása
+	- való életben: lambda kifejezések (pl c#-ban)
+- Markov algoritmus - Markov (1961)
+	- formális nyelvi megközelítés
+	- ...
+...
+...
+
+
+- 1950-es évek lelkesedése
+- Minden problémára van megoldó algoritmus?
+
+- Church-Turing tézis:
+	- a Turing-gép képes minden kiszámítható függvényt kiszámítani
+
+- Church-Turing tétel:
+	-vannak Turing-géppel ki nem számítható függvények
+	
+Turing-gép
+
+2 fő alkatrész:
+	- Vezérlő:
+		- Egyetlen információ: Aktuálisan melyik lehetséges állapotában van?
+		- Lehetséges belső állapotainak halmaza: Q
+	- Szalag:
+		- Cellákból áll, végtelen.
+		- Az író-olvasó fej aktuálisan az egyik cella felett áll.
+		- Betűk (=szalagjelek) halmaza: Σ
+		- Van két állapotjel: ▷,
+	- Jelölések:
+			T = <Σ,Q,q0,F,δ>
+		- Σ: szalagjelek (betűk) halmaza
+		- Q: állapotok halmaza
+		- q0: kezdőállapot
+		- F: elfogadó állapotok halmaza
+		- δ: (állapot)átmenetfüggvény
+		
+Bemenő paraméterei:
+	- Aktuális állapot: q \in Q
+	- Aktuálisan olvasott betű: o \in Σ
+
+Visszaadott értékei (mindhárman):
+	- Következő állapot: q' \in Q
+	- A cellára visszaírandó betű: o' \in Σ
+	- Merre mozduljon a fej: m \in {<-,-,->}
+	
+Átmenetfüggvény
+
+Tehát az átmenetfüggvény így paraméterezhető és ilyen értékhármast ad vissza: 
+			δ(q,o) = (q', o', m)
+ahol 
+..............................
+
+
+Készíts egy Turing-gépet, amely egy bináris számról eldönti, hogy páros-e!

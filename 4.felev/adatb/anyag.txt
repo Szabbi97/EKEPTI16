@@ -102,3 +102,55 @@ Triggerek használati esetei
 Készülékhiba
 
 - A lemezegység néhány bites (szektoros) meghibásodásától a lemez teljes olvashatatlanságáig terjedő hibák
+- A hiba kezelése a hiba mértékétől függően történhet:
+	- Ellenőrző összegek használatával
+	- RAID módszerrel
+	- Archiválással
+	- Elosztott, online adatbázismásolatok
+	
+Lemezhibák
+1. Ideiglenes meghibásodás: Egy szektor írása/olvasása sikertelen, de a művelet kellően sokszori megismétlése megoldja a korábban felmerül írási/olvasási problémát.
+2. Írási hiba: Egy suektor tartalmának írása sikertelen és a szektor tartalmát sem lehet már visszaállítani.
+3. Eszközhiba: Egy vagy több bit végleges meghibásodásának köszönhetően a teljes szektor olvashatatlanná válik.
+4. Lemezhiba: A lemez teljes tartalma végérvényesen olvashatatlanná és írhatatlanná válik.
+
+Ideiglenes meghibásodás
+- A lemezszektorokat redundáns bitekkel együtt szokás tárolni -> Segítségükkel megmondható, hogy a lemezművelet sikeres volt-e.
+- A lemezművelete során státuszbiteket alkalmazunk:
+	- Olvasási függvény esetén megmutatja, hogy sikerült-e az olvasás.
+	- Írási függvény esetén megmutatja, hogy sikerült-e a szektor írása.
+- Státuszbit előállítása -> ellenörző összegek használata:
+	- Paritásbit használata
+
+Paritásbit képzés
+- Értéke 1, ha a bitsorozat páratlan számú 1-es bitet tartalmaz.
+- Értéke 0, ha a bitsorozat páros számú 1-es bitet tartalmaz.
+	
+	Egy bitsorozatnak és a hozzá tartozó paritásbitek között páros számú 1-es bit található meg
+	Ha n független bitet használunk ellenőrző összegként, akkor annak esélye, hogy nem veszünk észre hibát, 1/2^n
+
+- A hibadeklarálásra alkalmas, de annak kezelésére nem.
+
+Stabil tárolása
+- A paritásbit nem segít a hiba elhárításában, csupán annak felismerését teszi lehetővé nagy valószínűséggel.
+- Szektorpárokat készítünk: X (szektor) -> XL (bal másolat), XR (jobb másolat).
+- Feltesszük, hogy az olvasási függvény mindig jó státuszbitet adjon vissza.
+	- Annyi paritásbitet használunk, hogy minden kis hiba...
+...........
+
+Stabil tárolás - írási elv
+
+1. Írjunk X értéket a bal másolatba mindaddig míg a státuszbit helyes nem lesz.
+Sok sikertelen próbálkozás után feltesszük, hogy a szektor hibás, ekkor javító módszert használunk, például egy új szektorral helyettesítjük a bal másolatot.
+2. Ismételjük meg az 1. pontot a jobb oldali másolatra
+
+Lemezhibák helyreállítása
+- Lemezek meghibásodási modellje
+	- Az életciklus korai szakaszában sok lemezhiba jelentkezik.
+	- Az életciklus későbbi szakaszaiban több tényezp kölcsönös hatásként növekszik a meghibásodás esélye.
+	
+		Redundáns tárolás segítségével kivédhető a lemezek meghibásodása.
+		
+		RAID (független lemezek redundáns tömbje)
+
+
