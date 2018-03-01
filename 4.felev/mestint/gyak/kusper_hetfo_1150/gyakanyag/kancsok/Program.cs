@@ -10,6 +10,12 @@ namespace kancsok
     {
         static void Main(string[] args)
         {
+            Csúcs startCsúcs;
+            GráfKereső kereső;
+            startCsúcs = new Csúcs(new KancsósÁllapot());
+            kereső = new BackTrack(startCsúcs, 10, true);
+            kereső.megoldásKiírása(kereső.Keresés());
+            Console.ReadKey();
         }
     }
 }

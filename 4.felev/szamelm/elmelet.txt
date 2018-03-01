@@ -144,3 +144,16 @@ ahol
 
 
 Készíts egy Turing-gépet, amely egy bináris számról eldönti, hogy páros-e!
+
+
+..................................................................................................................
+
+Turing-gép - Konfiguráció
+
+- Milyen állapotban van a vezérlője? q eleme Q
+
+1 inputra hány lépést végez a Turing Gép?
+
+(q0, |>, input (pl.: bab))
+
+

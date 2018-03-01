@@ -130,4 +130,70 @@ Relative error - the error of functions
 
 Δf(a)=|f'(a)|Δa
 
+-----------------------------------------------------------------------------------------------------------------------
 
+Polynomials
+
+Simple class of functions.
+Generic form:
+	p(x) = a0x^n+a1x^(n-1)+...+a(n-1)x+an = Σ(n,i=0)aix^i
+
+Requires n*n! number of multiplications to evaluate.
+A faster representation is the Horner scheme:
+from the polynomial expression, we gradually factor out the x:
+
+With the Horner scheme:
+p(x)=(((a0x+a1)x+...+a(n-2))x+a(n-1))x+an
+we can weite a much simpler algorythm to evaluate polynomial:
+
+				s=a0
+				
+				s=sx+a1
+				s=sx+a2
+				  ...
+				s=sx+an
+				
+which can be calculated in a single loop with n multiplications:
+a=a0;
+for(k=0,k<n,++k)
+{
+	s=sx+ak;
+}
+
+Transcendent functions 1
+- Computers can only execute basic level operations.
+- Consequently transcendent functions can only be implemented with numerical methods.
+- The principle od replace f(x) with a p(x) which can be evaluated with using exclusively basic operators.
+- Since polynomials are very easy to evaluate, p(x) is usually a polynomial.
+
+							f(x)~p(x)
+							
+Transcendent functions 2
+
+- We can also use derivatives of the function:
+
+	f'(x)=lim(h->0)((f(x+h)-f(x))/h)
+
+can also be written in another form:
+(f(x+h)-f(x))/h = f'(x)+α(h)
+where the error iterates to zero: lim(h->0)α(h)=0
+then f(x+h)~f(x)+hf'(x)
+or in a different form:
+f(x)~f(x0)+f'(x0)(x-x0)
+
+Transcendent functions
+
+Example:
+
+Let f(x)=x^a, and in x0=0 the function value is 1
+so: f(x0)=f(1)=1
+
+First derivative: f'(x)=ax((a-1), in the known place, if x0=1
+f'(x0)=a
+
+If x=1+Δ, where Δ=x-x0then from f(x) ...
+
+Maclaurin series
+- A specific case of the Taylor series, when x0=0
+
+f(x) = Σ(n,k=0)(x^k/k!)f^k(0)+Rn(x)

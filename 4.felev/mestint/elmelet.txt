@@ -150,4 +150,101 @@ Használ heurisztikát, determinisztikussá teszi az algoritmusomat, azaz mindig
 Csak úgy tudom használni a resteartot:
 	- Az feltárt zsákutcákat kizárom a keresési térből, azaz, ha már egyszer befutottam egy zsákutcába, mégegyszer nem engedem be a keresést -> törlöm a gráfból az élt. (Random-walk)
 	- A heurisztikába teszek véletlen elemeket, pl: a kiszámolt értéket megszorzom 0,5-1 közötti véletlen számmal. A jó heurisztika olyan, ami az elején jó irányba visz.
+
 	
+--------------------------------------------------------------------------------------------------------------------------
+
+Gráfkereső algoritmusok
+
+- Nem módosítható
+	- nincs technikai művelet
+- Módosítható
+	- Van technikai művelet
+		-Visszalépéses keresés (backtrack)
+		- Keresőfával keresők
+
+Visszalépéses keresés: Ha zsákutcába jutok, akkor visszalépek a zsákutca szülőcsúcsába, ezártal kijövök a zsákutcából.
+
+Adatbázis: Az aktuális út.
+
+1. Ha van megoldás, megtalálja?
+	Nem, csak abban az esetben, ha a gráf körmentes. Sőt, ha a gráfban van kör, elképzelhető, hogy a backtrack végtelen ciklusba esik.
+2. Ha nincs megoldás, felismeri?
+	Nem.
+3. Ha talál megoldást, az optimális?
+	Nem valószínű.
+4. Ha a 3. válasz igen: Milyen értelemben optimális?
+
+
+Mélységi korlátos Backtrack
+
+Adatbázis: ugyanaz, mint a sima backtrack-nél.
+
+Inicializálés: Ugyanaz, mint a sima backtrack-nél. Mélységi korlátot megfelelően nagyra választani.
+
+Ciklus: ugyanaz, mint a sima backtrack-nél.
+
+Pozitív kilépési feltétel: ugyanaz, mint a sima backtrack-nél.
+
+Negatív kilépési feltétel: ugyanaz, mint a sima backtrack-nél.
+
+Technikai művelet: Ha az aktuális csúcs zsákutca, vagy az aktuális csúcs mélysége >= mint a mélységi korlát, akkor visszalépés, azaz Akt = Akt.szülő.
+
+1. Ha van megoldás, megtalálja?
+	Igen, de csak a mélységi korlát felett.
+2. Ha nincs megoldás, felismeri?
+	Igen, de csak a mélységi korlát felett.
+3. Ha talál megoldást, az optimális?
+	Nem valószínű.
+
+
+Körfigyeléses Backtrack
+
+Adatbázis: ugyanaz, mint a sima backtrack-nél.
+
+Inicializálés: Ugyanaz, mint a sima backtrack-nél. Mélységi korlátot megfelelően nagyra választani.
+
+Ciklus: ugyanaz, mint a sima backtrack-nél.
+
+Pozitív kilépési feltétel: ugyanaz, mint a sima backtrack-nél.
+
+Negatív kilépési feltétel: ugyanaz, mint a sima backtrack-nél.
+
+Technikai művelet: Ha az aktuális csúcs zsákutca vagy az aktuális csúcs állapota már szerepel valamelyik előző csúcsban, akkor visszalépés, azaz Akt = Akt.szülő.
+				   Abban az esetben, ha az állapot sok adattal jellemezhető, akkor nem összehasonlítom a két állapotot, csak a hash kódját hasonlítom össze.
+
+1. Ha van megoldás, megtalálja?
+	Igen, mert szisztematikus és van benne körfigyelés. Szisztematikus, mert legrosszabb esetben az egész keresési teret felderíti.
+2. Ha nincs megoldás, felismeri?
+	Igen, mert szisztematikus és van benne körfigyelés.
+3. Ha talál megoldást, az optimális?
+	Nem valószínű.
+	
+	
+Körfigyeléses mélységi korlátos backtrack
+
+Adatbázis: ugyanaz, mint a sima backtrack-nél.
+
+Inicializálés: Ugyanaz, mint a sima backtrack-nél. Mélységi korlátot megfelelően nagyra választani.
+
+Ciklus: ugyanaz, mint a sima backtrack-nél.
+
+Pozitív kilépési feltétel: ugyanaz, mint a sima backtrack-nél.
+
+Negatív kilépési feltétel: ugyanaz, mint a sima backtrack-nél.
+
+Technikai művelet: Ha a keresés eléri a mélységi korlátot, vagy az aktuális csúcs állapota már szerepel valamelyik előző csúcsban, akkor visszalépés, azaz Akt = Akt.szülő.
+				   Abban az esetben, ha az állapot sok adattal jellemezhető, akkor nem összehasonlítom a két állapotot, csak a hash kódját hasonlítom össze.
+
+1. Ha van megoldás, megtalálja?
+	Igen, mert szisztematikus és van benne körfigyelés. Szisztematikus, mert legrosszabb esetben az egész keresési teret felderíti.
+2. Ha nincs megoldás, felismeri?
+	Igen, mert szisztematikus és van benne körfigyelés.
+3. Ha talál megoldást, az optimális?
+	Nem valószínű.
+	
+Ág-korlátos backtrack (Branch-cut searching)
+
+
+
+

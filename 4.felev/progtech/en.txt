@@ -121,6 +121,7 @@ MAIN
   MySingleton S1 = MySingleton.GetInstance
 }
 
+--------------------------------------------------------------------------------------------------------------------------
 
 Object Oriented Design Principles
 
@@ -184,3 +185,83 @@ class BankAccount
 The contract of an interface consist of a method or class invariant.
 
 A class invariant is a property which is true before and after each method call.
+
+----------------------------------------------------------------------------------------------------------
+
+Object composition
+	- aggregation <>-->       \ has-a relation = object composition
+	- composition <(teli)>--> /
+	
+	[guitarist]<>-->[guitar] means "Guitarist has a guitar"
+	
+	If the guitarist dies than shall we burry also his guitar or not?
+		- yes: composition
+		-  no: aggregation
+
+Composition means that I have something and I am the only owner and no one can have what I have.
+Aggreagation means that others also have something not only me.
+
+class Guitarist
+{
+	Guitar guitar;
+	
+	public Guitarist(Guitar g)
+	{
+		this.guitar = g;
+	}
+}
+
+class Guitar
+{
+	public Guitar()
+	{
+		
+	}
+}
+
+Main()
+{
+	Guitarist Cortes = new Guitarist(new Guitar());
+}
+
+Main()
+{
+	Guitar g = new Guitar();
+	
+	Guitarist Juan = new Guitarist(g);
+	Guitarist Pablo = new Guitarist(g);
+}
+
+Injection is when we give the value reference which represents an object composition.
+
+Regarding the ownership we have two kinds of object composition. Aggreagation which means that there are more owners and composition which means there is only one owner.
+Regarding transparency there are two kinds of object composition. Transparent and non-transparent.
+
+Object composition has severeal synonims:
+	- has-a-relation
+	- wrapping
+	
+Adapter: Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+Transparency means that after wrapping I can still see the interface of a wrapped object.
+
+We wrap the robot interface bot we do not 
+
+Proxy is an other design pattern. It's about wrapping an object in a transparent way. Proxy and the object has the same interface but the proxy can have some other functionality.
+
+Proxy: Provide a surrogate or placeholder for another object to control access to it.
+
+Headfirst Design Pattern - other book
+
+[Graphic][Draw();GetExtent();Save();Load();]
+|
+|-[Image][Draw();GetExtent();Save();Load();][imageImp;extent;]
+|-[ImageProxy][Draw();GetExtent();Save();Load();][fileName;extent;]
+
+
+Proxy is an example of transparent wrapping.
+In order to have transparent wrapping you need to have a has-a-relationship and an is-a-relationship, because the wrapper and the wrapped class should have the same interface.
+
+Decorator Design Pattern
+
+Desorator: 
